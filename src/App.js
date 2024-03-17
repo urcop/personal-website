@@ -3,7 +3,10 @@ import './App.css';
 function App() {
   return (
     <div className='main'>
-      <p>Сайт наебнулся :(</p>
+      <div className='info-container'>
+        <p className='info-text'>Сайт убнулся :(</p>
+        <p className='info-text__additional'>coming soon...</p>
+      </div>
     </div>
   );
 }
